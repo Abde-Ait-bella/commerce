@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-collapse img{
+    height: 40px;
+}
+
+.containerPanier{
+    min-height: 8rem;
+    max-height: 60%;
+    width: 70%;
+    position: fixed;
+    background: rgb(151, 151, 151);
+    top: 50%;
+    left: 50%;
+    overflow: auto;
+    overflow-x: hidden;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    box-shadow: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+  ::-webkit-scrollbar-track-piece {
+    border: none;
+  }
+
+.form-control {
+    height: 38px;
+}
+
+.profiletoggle{
+    background-image: url("../images/bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card-body .display-4 {
+    transition: all 0.3s ease;
+}
+
+.card:hover .card-body .display-4 {
+    transform: scale(1.1);
+}
+
+.background-home{
+    background-image: url("../images/logo1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img{
+    background-image: url("../images/logo1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.addProduct_popup{
+    position: fixed;
+    /* width: 40%; */
+    /* height: 70%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(251, 251, 251);
+    z-index:  110;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgb(92, 92, 92);
+}
