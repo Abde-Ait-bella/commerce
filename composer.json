@@ -1,5 +1,15 @@
 {
-    "require": {
-        "lcobucci/jwt": "^4.0"
-    }
+    "name": "youcode/commerce",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdessamad Ait-bella",
+            "email": "abdessamadaitbella1998@gmail.com"
+        }
+    ],
+    "require": {}
 }
